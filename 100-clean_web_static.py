@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+# deletes out-of-date archives
+
 from fabric.api import local, env, run, lcd, cd
 import os
 
